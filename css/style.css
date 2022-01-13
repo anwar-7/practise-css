@@ -89,7 +89,9 @@ header {
 
 /* Media query */
 
-@media only screen and (min-width: 769px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 300px) and (max-device-width: 699px) {
+  header {
+  }
   .players {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 20px;
